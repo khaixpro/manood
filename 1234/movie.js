@@ -1,4 +1,4 @@
-const apiKey = '88b63f0cfc452a647cc394d7e3a52214'; // Your TMDB API Key
+const apiKey = 'f4325dedfc6b735cb4f7cda03cacd9b8'; // Your TMDB API Key
 const baseUrl = 'https://api.themoviedb.org/3';
 
 // Helper function to fetch movies and populate the row
