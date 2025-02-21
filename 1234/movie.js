@@ -95,7 +95,7 @@ const fetchMovies = async (category, rowId) => {
 
                 // Add click event to each movie poster to redirect to the movie details page
                 movieCard.addEventListener('click', () => {
-                    window.location.href = `movie-details.html?movie_id=${movie.id}`;
+                    window.location.href = `movie-details?movie_id=${movie.id}`;
                 });
 
                 movieCards.appendChild(movieCard);
@@ -145,7 +145,7 @@ moviePoster.alt = movie.title;
 
         // Add click event to each movie poster to redirect to the movie details page
         movieCard.addEventListener('click', () => {
-            window.location.href = `movie-details.html?movie_id=${movie.id}`;
+            window.location.href = `movie-details?movie_id=${movie.id}`;
         });
     });
 });
@@ -191,7 +191,7 @@ const fetchBanner = async () => {
 
         // Add event listener to the Play button to navigate to movie details
         playButton.addEventListener('click', () => {
-            window.location.href = `movie-details.html?movie_id=${movie.id}`;
+            window.location.href = `movie-details?movie_id=${movie.id}`;
         });
 
     } catch (error) {
@@ -263,7 +263,7 @@ document.addEventListener('click', function(event) {
 
 function openSearchPage() {
     // Magbukas ug new page
-    window.location.href = 'search.html';  // I-replace ang 'search.html' sa URL sa imong gustong page
+    window.location.href = 'search';  // I-replace ang 'search.html' sa URL sa imong gustong page
 }
 
 // Array of movie endpoints with custom server names
