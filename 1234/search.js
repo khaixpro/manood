@@ -30,8 +30,8 @@ async function fetchRecommendations() {
       // Create a link that points to the correct details page based on media type
       const link = document.createElement('a');
       link.href = mediaType === 'movie' 
-        ? `movie-details.html?movie_id=${id}` // Movie details page
-        : `tvshows-details.html?id=${id}`; // TV Show details page
+        ? `movie-details?movie_id=${id}` // Movie details page
+        : `tvshows-details?id=${id}`; // TV Show details page
 
       const movieItem = document.createElement('div');
       movieItem.classList.add('movie-item');
@@ -77,8 +77,8 @@ async function fetchMovies(query) {
       // Create a link that points to the correct details page based on media type
       const link = document.createElement('a');
       link.href = mediaType === 'movie' 
-        ? `movie-details.html?movie_id=${id}` // Movie details page
-        : `tvshows-details.html?id=${id}`; // TV Show details page
+        ? `movie-details?movie_id=${id}` // Movie details page
+        : `tvshows-details?id=${id}`; // TV Show details page
 
       const movieItem = document.createElement('div');
       movieItem.classList.add('movie-item');
