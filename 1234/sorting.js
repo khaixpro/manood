@@ -93,9 +93,9 @@ function displayItems(items) {
 
         // Check if it's a movie or TV show and set the appropriate detail URL
         if (item.title) {
-            detailUrl = `movie-details.html?movie_id=${item.id}`; // Movie details page
+            detailUrl = `movie-details?movie_id=${item.id}`; // Movie details page
         } else if (item.name) {
-            detailUrl = `tvshows-details.html?id=${item.id}`; // TV show details page
+            detailUrl = `tvshows-details?id=${item.id}`; // TV show details page
         }
 
         // Wrap the image with a link that directs to the detail page
