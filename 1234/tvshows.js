@@ -92,7 +92,7 @@ const fetchTVShows = async (category, rowId) => {
 
                 // Add click event to each TV show poster to redirect to the details page
                 tvShowCard.addEventListener('click', () => {
-                    window.location.href = `tvshows-details.html?id=${tvShow.id}`;
+                    window.location.href = `tvshows-details?id=${tvShow.id}`;
                 });
 
                 tvShowCards.appendChild(tvShowCard);
@@ -150,7 +150,7 @@ const fetchBanner = async () => {
 
         // Add event listener to the Play button to navigate to TV show details
         playButton.addEventListener('click', () => {
-            window.location.href = `tvshows-details.html?id=${tvShow.id}`;
+            window.location.href = `tvshows-details?id=${tvShow.id}`;
         });
 
     } catch (error) {
@@ -222,7 +222,7 @@ document.addEventListener('click', function(event) {
 
 function openSearchPage() {
     // Magbukas ug new page
-    window.location.href = 'search.html';  // I-replace ang 'search.html' sa URL sa imong gustong page
+    window.location.href = 'search';  // I-replace ang 'search.html' sa URL sa imong gustong page
 }
 
 const SERIES_ENDPOINTS = [
@@ -515,7 +515,7 @@ document.addEventListener('DOMContentLoaded', initArrowNavigation);
 const closeButton = document.getElementById('close-button');
 
 closeButton.addEventListener('click', () => {
-    window.location.href = 'tvshows_page.html'; // Redirects to the tvshows-details page
+    window.location.href = 'tvshows_page'; // Redirects to the tvshows-details page
 });
 
 window.addEventListener("load", function() {
