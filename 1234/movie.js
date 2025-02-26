@@ -271,7 +271,6 @@ const MOVIE_ENDPOINTS = [
     { url: 'https://player.videasy.net/movie/', name: 'SERVER 1' },
     { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'SERVER 2' },
     { url: 'https://111movies.com/movie/', name: 'SERVER 3' },
-    { url: 'https://hexa.watch/movie/', name: 'SERVER 4' }
 ];
 
 // Get the movie ID from the URL query string
