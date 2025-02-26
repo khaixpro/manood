@@ -270,13 +270,7 @@ function openSearchPage() {
 const MOVIE_ENDPOINTS = [
     { url: 'https://player.videasy.net/movie/', name: 'Mythical 4K(Recommended, Auto Switch Server)' },
     { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'Legend(NOADSFAST)' },
-    { url: 'https://vidlink.pro/movie/', name: 'Warrior' },
-    { url: 'https://api.hexa.watch/movie/', name: 'Epic(No Ads)' },
-    { url: 'https://111movies.com/movie/', name: 'Mythic(Fast)' },
-    { url: 'https://rivestream.live/embed?type=movie&id=', name: 'Grand Master' },
-    { url: 'https://vidsrc.dev/embed/movie/', name: 'Divine' },
-    { url: 'https://vidsrc.io/embed/movie/', name: 'Sniper' },
-    { url: 'https://moviesapi.club/movie/', name: 'KUPAL(Decent)' }
+    { url: 'https://111movies.com/movie/', name: 'Mythic(Fast)' }
 ];
 
 // Get the movie ID from the URL query string
@@ -324,7 +318,7 @@ const fetchMovieDetails = async () => {
         for (let i = 0; i < emptyStars; i++) {
             const star = document.createElement('span');
             star.classList.add('star', 'empty');
-            starContainer.appendChild(star);
+           starContainer.appendChild(star);
         }
 
         // Movie Release Date
