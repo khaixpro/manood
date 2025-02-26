@@ -268,9 +268,9 @@ function openSearchPage() {
 
 // Array of movie endpoints with custom server names
 const MOVIE_ENDPOINTS = [
-    { url: 'https://player.videasy.net/movie/', name: 'Mythical 4K(Recommended, Auto Switch Server)' },
-    { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'Legend(NOADSFAST)' },
-    { url: 'https://111movies.com/movie/', name: 'Mythic(Fast)' }
+    { url: 'https://player.videasy.net/movie/', name: 'SERVER 1' },
+    { url: 'https://vidsrc.cc/v2/embed/movie/', name: 'SERVER 2' },
+    { url: 'https://111movies.com/movie/', name: 'SERVER 3' }
 ];
 
 // Get the movie ID from the URL query string
