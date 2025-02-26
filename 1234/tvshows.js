@@ -226,8 +226,10 @@ function openSearchPage() {
 }
 
 const SERIES_ENDPOINTS = [
-    { url: 'https://111movies.com/tv/', name: 'Mythic(Fast, Auto Next, Auto Play)' },
-    { url: 'https://player.videasy.net/tv/', name: 'Mythical(Recommended)' },
+    
+    { url: 'https://player.videasy.net/tv/', name: 'SERVER 1' },
+    { url: 'https://vidsrc.cc/v2/embed/tv/', name: 'SERVER 2' },
+    { url: 'https://111movies.com/tv/', name: 'SERVER 3' },
     { url: 'https://vidlink.pro/tv/', name: 'Warrior(Auto Play)' },
     { url: 'https://vidsrc.vip/embed/tv/', name: 'Kupal(Next Button)' },
     { url: 'https://vidsrc.rip/embed/tv/', name: 'Grand Master' },
