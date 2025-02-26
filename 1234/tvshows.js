@@ -230,13 +230,6 @@ const SERIES_ENDPOINTS = [
     { url: 'https://player.videasy.net/tv/', name: 'SERVER 1' },
     { url: 'https://vidsrc.cc/v2/embed/tv/', name: 'SERVER 2' },
     { url: 'https://111movies.com/tv/', name: 'SERVER 3' },
-    { url: 'https://vidlink.pro/tv/', name: 'Warrior(Auto Play)' },
-    { url: 'https://vidsrc.vip/embed/tv/', name: 'Kupal(Next Button)' },
-    { url: 'https://vidsrc.rip/embed/tv/', name: 'Grand Master' },
-    { url: 'https://api.hexa.watch/tv/', name: 'Epic(No Ads)' },
-    { url: 'https://vidsrc.dev/embed/tv/', name: 'Divine' },
-    { url: 'https://vidsrc.me/embed/tv/', name: 'Sniper' },
-    { url: 'https://vidsrc.cc/v2/embed/tv/', name: 'Legend' },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
